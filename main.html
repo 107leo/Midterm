@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script>
+function msg() {
+
+         if( document.getElementById("id").value == "" )
+        	 alert( "Please Provide Your Username" );
+         	
+
+         else if( document.getElementById("name").value == "" ) 
+         	alert( "Please Provide Name" );
+         	
+         else if( document.getElementById("Email").value == "" ) 
+         	alert( "Please Provide Your EmailId" );
+        
+        else 
+        	alert( "Successfull Registration" );
+        	
+        frm.reset;
+        	
+        }
+
+</script>
+<form id="frm">
+<h3><b><i>REGISTRATION FORM</i></b></h3>
+ 	
+  User ID : <input type="text" id="id"><br>
+  
+  Name : <input type="text" id="name"><br>
+			
+  Email:<input type="email" id="Email"><br>
+  
+  Gender:
+  		 <input type="radio" name="gender" value="male"> Male
+ 		 <input type="radio" name="gender" value="female"> Female<br>
+  
+  <input type = "submit" value = "Submit" onclick = "msg()">
+</form>
+</body>
+</html>

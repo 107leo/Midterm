@@ -1,0 +1,51 @@
+h3{
+color: black;
+background-color: #555;
+text-align: center;
+font-size: 30px;
+}
+
+frameset{
+background-color: #777;
+  font-size: 15px;
+  line-height: 50px;
+}
+
+body {
+  background-color: #777;
+  font-size: 15px;
+  line-height: 50px;
+  text-align: center;
+}
+
+input[type=text] {
+ 
+  padding: 1px 3px;
+  margin: 8px 0;
+}
+
+input[type=password]{
+ 
+  padding: 1px 3px;
+  margin: 8px 0;
+}
+
+
+input[type=email]{
+ 
+  padding: 1px 3px;
+  margin: 8px 0;
+}
+
+input[type=select]{
+ 
+  padding: 1px 3px;
+  margin: 8px 0;
+}
+
+input[type=submit]{
+ 
+  text-align: center;
+  padding: 1px 3px;
+  margin: 8px 0;
+}
